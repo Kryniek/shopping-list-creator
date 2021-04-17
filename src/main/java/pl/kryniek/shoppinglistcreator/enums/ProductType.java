@@ -70,6 +70,7 @@ public enum ProductType {
                 "Szczypiorek",
                 "Cebula",
                 "Ziemniak",
+                "Batat",
                 "Bakłażan",
                 "Bazylia (świeże liście)",
                 "Burak",
@@ -79,7 +80,10 @@ public enum ProductType {
                 "Kukurydza",
                 "pietruszk",
                 "Czosnek",
-                "Oliwki");
+                "Oliwki",
+                "marchew",
+                "pieczarki",
+                "seler ");
         return keyNames
                 .stream()
                 .map(String::toLowerCase)
@@ -91,7 +95,8 @@ public enum ProductType {
                 "banan",
                 "Cytryna",
                 "Mango",
-                "gruszka");
+                "gruszka",
+                "kiwi");
         return keyNames
                 .stream()
                 .map(String::toLowerCase)
