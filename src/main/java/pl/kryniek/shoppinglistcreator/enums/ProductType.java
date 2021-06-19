@@ -96,7 +96,13 @@ public enum ProductType {
                 "Cytryna",
                 "Mango",
                 "gruszka",
-                "kiwi");
+                "kiwi",
+                "Winogron",
+                "Nektarynk",
+                "Melon",
+                "Agrest",
+                "mandarynk",
+                "pomarańcz");
         return keyNames
                 .stream()
                 .map(String::toLowerCase)
